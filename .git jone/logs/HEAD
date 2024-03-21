@@ -1,0 +1,5 @@
+0000000000000000000000000000000000000000 4c256a66dc3d5a97dd690c521fcba0cb20c43c49 shaheen2013 <coredeveloper.2013@gmail.com> 1710888132 +0600	clone: from bitbucket.org:jonecoder/quikbuys.git
+4c256a66dc3d5a97dd690c521fcba0cb20c43c49 4c256a66dc3d5a97dd690c521fcba0cb20c43c49 shaheen2013 <coredeveloper.2013@gmail.com> 1710888236 +0600	checkout: moving from main to ui
+4c256a66dc3d5a97dd690c521fcba0cb20c43c49 27898242497c03e5ea78dec6caf3f80c8e94a3f8 shaheen2013 <coredeveloper.2013@gmail.com> 1710890560 +0600	commit: initial project setup
+27898242497c03e5ea78dec6caf3f80c8e94a3f8 37a17a0543ed49eb25193f40a8c43372d825182b nadim-chowdhury <nadim-chowdhury@outlook.com> 1710894958 +0600	commit: header social media & dark mode implemented
+37a17a0543ed49eb25193f40a8c43372d825182b 60a55f80bab94fcb4eacf9ff6395ff991aa96888 nadim-chowdhury <nadim-chowdhury@outlook.com> 1710902836 +0600	commit: header logo, searchbox, user, wishlist, cart icon added
