@@ -36,7 +36,7 @@ export default function Navbar() {
               <h3 className="border-b-2">
                 <Button
                   variant="link"
-                  className="hover:no-underline cursor-auto"
+                  className="hover:no-underline cursor-auto font-semibold tracking-wide"
                 >
                   {item.name}
                 </Button>
@@ -69,7 +69,7 @@ export default function Navbar() {
           </PopoverTrigger>
           <PopoverContent className="w-full">
             <h3 className="border-b-2">
-              <Button variant="link" className="hover:no-underline cursor-auto">
+              <Button variant="link" className="hover:no-underline cursor-auto font-semibold tracking-wide">
                 Get Great
                 <span className="text-rose-500">&nbsp;{item.name}&nbsp;</span>
                 Products!
