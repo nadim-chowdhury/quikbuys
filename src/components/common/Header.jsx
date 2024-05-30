@@ -71,7 +71,11 @@ export default function Header() {
                 placeholder="Search your product"
                 className="w-full focus-visible:ring-0 focus-visible:ring-offset-0 border-0 border-x border-y rounded-r-none"
               />
-              <Button variant="outline" size="icon" className="h-10 w-10 border-0 border-r border-y rounded-l-none">
+              <Button
+                variant="outline"
+                size="icon"
+                className="h-10 w-10 border-0 border-r border-y rounded-l-none"
+              >
                 <FaSearch />
               </Button>
             </div>

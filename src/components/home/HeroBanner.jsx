@@ -24,13 +24,13 @@ export default function HeroBanner() {
         slidesPerView={1}
         navigation
         loop={true}
-        autoplay={{ delay: 2500, disableOnInteraction: false }}
+        autoplay={{ delay: 3000, disableOnInteraction: false }}
         pagination={{ clickable: true }}
         onSwiper={(swiper) => console.log(swiper)}
         onSlideChange={() => console.log("slide change")}
         freeMode={true}
         effect="fade"
-        className="h-[70vh] rounded-lg"
+        className="custom-swiper h-[70vh] rounded-lg"
       >
         {demoBanner.map((item) => (
           <SwiperSlide key={item.id}>

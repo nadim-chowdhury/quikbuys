@@ -74,3 +74,12 @@
     @apply bg-background text-foreground;
   }
 }
+
+.custom-swiper .swiper-button-next,
+.custom-swiper .swiper-button-prev {
+  display: none;
+}
+
+.custom-swiper .swiper-pagination-bullet-active {
+  background-color: #f43f5e;
+}
