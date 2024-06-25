@@ -4,19 +4,19 @@ export const userWishlistsCart = [
   {
     id: 1,
     name: "User",
-    href: "",
+    href: "/profile",
     element: <FaUser />,
   },
   {
     id: 2,
-    name: "Wishlists",
-    href: "",
+    name: "Wishlist",
+    href: "/wish-list",
     element: <FaHeart />,
   },
   {
     id: 3,
     name: "Cart",
-    href: "",
+    href: "/shopping-cart",
     element: <FaShoppingBag />,
   },
 ];

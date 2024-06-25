@@ -83,14 +83,11 @@ export default function Header() {
 
           <div className="flex items-center gap-2">
             {userWishlistsCart.map((item) => (
-              <Button
-                key={item.id}
-                variant="outline"
-                size="icon"
-                className="h-10 w-10"
-              >
-                <Link href={item.href}>{item.element}</Link>
-              </Button>
+              <Link href={item.href} key={item.id}>
+                <Button variant="outline" size="icon" className="h-10 w-10">
+                  {item.element}
+                </Button>
+              </Link>
             ))}
           </div>
         </div>

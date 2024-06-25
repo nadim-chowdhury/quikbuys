@@ -20,15 +20,13 @@ export default function Navbar() {
 
       <Popover>
         <PopoverTrigger asChild className="group">
-          <Link href="/">
-            <Button variant="ghost">
-              Categories
-              <ChevronDown
-                className="ml-1 h-5 w-5 transition duration-200 group-data-[state=open]:rotate-180"
-                aria-hidden="true"
-              />
-            </Button>
-          </Link>
+          <Button variant="ghost">
+            Categories
+            <ChevronDown
+              className="ml-1 h-5 w-5 transition duration-200 group-data-[state=open]:rotate-180"
+              aria-hidden="true"
+            />
+          </Button>
         </PopoverTrigger>
         <PopoverContent className="flex gap-6 w-full">
           {navbarCategories.map((item) => (
@@ -57,19 +55,20 @@ export default function Navbar() {
       {navbarItems.map((item) => (
         <Popover key={item.id}>
           <PopoverTrigger asChild className="group">
-            <Link href="/">
-              <Button variant="ghost">
-                {item.name}
-                <ChevronDown
-                  className="ml-1 h-5 w-5 transition duration-200 group-data-[state=open]:rotate-180"
-                  aria-hidden="true"
-                />
-              </Button>
-            </Link>
+            <Button variant="ghost">
+              {item.name}
+              <ChevronDown
+                className="ml-1 h-5 w-5 transition duration-200 group-data-[state=open]:rotate-180"
+                aria-hidden="true"
+              />
+            </Button>
           </PopoverTrigger>
           <PopoverContent className="w-full">
             <h3 className="border-b-2">
-              <Button variant="link" className="hover:no-underline cursor-auto font-semibold tracking-wide">
+              <Button
+                variant="link"
+                className="hover:no-underline cursor-auto font-semibold tracking-wide"
+              >
                 Get Great
                 <span className="text-rose-500">&nbsp;{item.name}&nbsp;</span>
                 Products!
