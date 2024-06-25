@@ -1,6 +1,7 @@
 "use client";
 
-import { Input } from "../../components/ui/Input";
+import { Input } from "@/components/ui/input";
+// import { Input } from "../../components/ui/Input";
 import { Button } from "../../components/ui/button";
 import { useState } from "react";
 import { useSelector, useDispatch } from "react-redux";
