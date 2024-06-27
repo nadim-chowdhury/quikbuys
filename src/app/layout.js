@@ -20,13 +20,14 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={poppins.className}>
-        <Header /> <ReduxProvider>{children}</ReduxProvider> <Footer2 />
-        {/* <ThemeProvider
+        <ThemeProvider
           attribute="class"
-          defaultTheme="light"
-          // enableSystem
+          defaultTheme="system"
+          enableSystem
           disableTransitionOnChange
-        ></ThemeProvider> */}
+        >
+          <Header /> <ReduxProvider>{children}</ReduxProvider> <Footer />
+        </ThemeProvider>
       </body>
     </html>
   );

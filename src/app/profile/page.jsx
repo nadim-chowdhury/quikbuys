@@ -1,8 +1,7 @@
 "use client";
 
-import { Input } from "@/components/ui/input";
-// import { Input } from "../../components/ui/Input";
-import { Button } from "../../components/ui/button";
+import { Input } from "@/components/ui/Input";
+import { Button } from "@/components/ui/button";
 import { useState } from "react";
 import { useSelector, useDispatch } from "react-redux";
 // import { updateUser } from "@/store/slices/authSlice"; // Assuming this action is defined
